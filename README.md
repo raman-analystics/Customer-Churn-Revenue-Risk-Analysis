@@ -65,7 +65,7 @@ The dashboard is designed for executive-level decision making, answering:
 * Suggests weak long-term retention
 
 💰 3. Revenue is Highly Concentrated
-* Champions contribute ~60%+ of total revenue (~$11M)
+* Champions contribute 60% of revenue around $11M. 
 * Business is heavily dependent on a small group of high-value customers
 
 ⚠️ 4. At-Risk Segment is the Critical Opportunity
