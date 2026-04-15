@@ -1,4 +1,4 @@
-📊 Customer Churn & Revenue Risk Analysis
+📊 Customer Revenue Optimization & Retention Strategy
 SQL + Tableau | End-to-End Data Analytics Project
 
 🧠 Project Overview
