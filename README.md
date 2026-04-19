@@ -1,95 +1,130 @@
-📊 Customer Revenue Optimization & Retention Strategy
-SQL + Tableau | End-to-End Data Analytics Project
+# 📊 Customer Revenue Optimization & Retention Strategy Dashboard
 
-🧠 Project Overview
-Customer retention is one of the most critical drivers of long-term revenue in e-commerce. This project analyzes customer behavior to identify churn risk, revenue concentration, and high-impact retention opportunities.
-Using transactional data, I built a customer segmentation and churn analysis framework, and translated insights into a decision-oriented dashboard for business stakeholders.
+## 🚀 Project Overview
 
-🎯 Business Objective
-* Identify which customers are at risk of churn
-* Understand where revenue is concentrated
-* Detect high-value customers likely to churn
-* Provide actionable strategies to improve retention and maximize revenue
+This project focuses on analyzing customer behavior to identify **revenue growth opportunities and churn risks** using transactional e-commerce data.
 
-🛠️ Tools & Technologies
-* SQL (MySQL) → Data cleaning, transformation, feature engineering
-* Tableau Public → Dashboard design and visualization
-* Excel/CSV → Data source
+The goal was to move beyond basic reporting and answer a key business question:
 
-📂 Dataset
-* Transaction-level e-commerce dataset
-* Key fields:
-    * CustomerID
-    * InvoiceDate
-    * Revenue
-    * Quantity
-    * Price
+> **How can we improve customer retention and unlock additional revenue from existing customers?**
 
-⚙️ Data Preparation & Feature Engineering
-🔹 1. Customer-Level Aggregation
-* Total Revenue per customer
-* Total Orders
-* Average Order Value (AOV)
 
-🔹 2. Recency Calculation
-* Calculated days since last purchase
-* Used as a proxy for customer engagement
+## 🎯 Objectives
 
-🔹 3. Customer Segmentation (Lifecycle-Based)
-Customers were segmented into:
-* Champions → Highly active, high-value
-* Loyal → Consistent repeat buyers
-* Potential → Moderate engagement
-* At Risk → Declining activity
-* Lost → Inactive for extended period
+* Identify high-value customer segments
+* Analyze customer retention patterns over time
+* Detect churn risk based on inactivity behavior
+* Quantify revenue opportunities from re-engagement strategies
+* Provide actionable, prioritized business recommendations
 
-🔹 4. Churn Definition
-Churn was defined as:
-Customers inactive for more than 120 days
-This threshold was selected based on observed behavioral patterns in the data.
+---
 
-📊 Dashboard Overview
-The dashboard is designed for executive-level decision making, answering:
-* What is the current business performance?
-* Where is revenue coming from?
-* Which customers are at risk?
-* What actions should be taken?
+## 🧠 Key Insights
 
-🔑 Key Insights
-📉 1. High Churn Rate Signals Retention Challenge
-* ~47% of customers are inactive beyond 90–120 days
-* Indicates significant drop-off in customer engagement
+### 1. Revenue Concentration
 
-👥 2. Customer Base Dominated by Lost Segment
-* Largest segment consists of inactive customers
-* Suggests weak long-term retention
+* **51% of total revenue ($18M)** is driven by the **Champions segment**
+* Indicates strong dependency on a small group of high-value customers
 
-💰 3. Revenue is Highly Concentrated
-* Champions contribute 60% of revenue around $11M. 
-* Business is heavily dependent on a small group of high-value customers
+### 2. Churn Behavior
 
-⚠️ 4. At-Risk Segment is the Critical Opportunity
-* ~60% churn rate in “At Risk” customers
-* Represents the highest ROI intervention segment
+* Customer inactivity beyond **90 days leads to a sharp churn spike (~50%)**
+* Critical window for intervention lies between **60–90 days**
 
-⏱️ 5. Clear Churn Threshold Identified
-* Churn probability increases sharply after 90–120 days of inactivity
-* Defines a measurable behavioral tipping point
+### 3. Customer Distribution Risk
 
-🎯 6. High-Value Customers at Risk of Churn
-* Identified cluster of high-revenue but low-frequency customers
-* These customers represent maximum revenue risk if lost
+* **26% of customers are already inactive**
+* Lost customers represent high volume but low revenue contribution
+  → Suggests inefficiencies in customer acquisition quality
 
-🚀 Strategic Recommendations
-* Prioritize At-Risk Customers: Intervene before the 90-day inactivity threshold to prevent churn escalation
-* Re-activate High-Value Lost Customers: Launch targeted win-back campaigns for previously high-revenue users
-* Strengthen Champion Retention: Implement loyalty programs to protect core revenue drivers
-* Trigger Early Re-engagement: Automate campaigns based on inactivity signals
-* Optimize Retention Spend: Focus efforts on high-value and high-risk segments for maximum ROI
+### 4. Retention Patterns (Cohort Analysis)
 
-📈 Business Impact
-If implemented, these strategies can:
-* Reduce churn in high-risk segments
-* Improve customer lifetime value (CLV)
-* Protect and grow high-value customer base
-* Increase overall revenue retention
+* Significant drop-off observed after the first few periods across cohorts
+* Highlights need for early engagement strategies
+
+---
+
+## 💰 Business Impact
+
+### 🎯 Top Opportunity
+
+Re-engaging customers inactive for **60–90 days** could generate:
+
+> **~$200K additional revenue** (estimated from churn reduction scenario)
+
+---
+
+## 📊 Dashboard Features
+
+* **KPI Overview**
+
+  * Total Revenue
+  * Customer Count
+  * Average Order Value (AOV)
+  * Churn Rate
+
+* **Customer Segmentation**
+
+  * Lifecycle-based segmentation (Potential, Loyal, Champions, At Risk, Lost)
+
+* **Cohort Retention Analysis**
+
+  * Monthly cohort tracking to evaluate retention decay
+
+* **Churn Acceleration Analysis**
+
+  * Identifies critical inactivity threshold for customer drop-off
+
+* **Opportunity Matrix**
+
+  * Segments customers based on Recency vs Monetary value
+  * Highlights areas for retention, nurturing, and win-back strategies
+
+* **Revenue Distribution**
+
+  * Visual breakdown of revenue contribution by customer segments
+
+---
+
+## 🛠 Tools & Technologies
+
+* Tableau (Dashboard & Visualization)
+* Python (Data extraction & transformation)
+* Excel (Data preprocessing)
+
+---
+
+## 📌 Strategic Recommendations
+
+### 🔴 High Impact (Immediate)
+
+* Target customers inactive for **60–90 days**
+* Deploy re-engagement campaigns (email, offers, reminders)
+* Potential revenue recovery: **~$200K**
+
+### 🟡 Medium Impact
+
+* Win-back high-value lost customers
+* Personalized campaigns based on past purchase behavior
+
+### 🟢 Low Impact
+
+* Strengthen loyalty programs for Champions segment
+* Focus on retention rather than acquisition for this group
+
+## 📈 What I Learned
+
+* How to translate raw data into **business-focused insights**
+* Importance of **customer lifecycle segmentation**
+* Using **cohort analysis** to uncover retention patterns
+* Communicating insights with **clear business impact and prioritization**
+
+---
+
+## 🔗 Connect With Me
+
+I’m actively looking for opportunities in Data Analytics.
+
+If you have feedback or suggestions, feel free to connect!
+
+---
